@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://isunjn.com/</loc>
+        <loc>https://isunjn.me/</loc>
     </url>
     <url>
-        <loc>https://isunjn.com/blog/</loc>
+        <loc>https://isunjn.me/blog/</loc>
     </url>
     <url>
-        <loc>https://isunjn.com/blog/test-post/</loc>
+        <loc>https://isunjn.me/blog/test-post/</loc>
         <lastmod>2021-10-18</lastmod>
     </url>
     <url>
-        <loc>https://isunjn.com/categories/</loc>
+        <loc>https://isunjn.me/categories/</loc>
     </url>
     <url>
-        <loc>https://isunjn.com/categories/tech/</loc>
+        <loc>https://isunjn.me/categories/tech/</loc>
     </url>
     <url>
-        <loc>https://isunjn.com/tags/</loc>
+        <loc>https://isunjn.me/tags/</loc>
     </url>
     <url>
-        <loc>https://isunjn.com/tags/serene/</loc>
+        <loc>https://isunjn.me/tags/serene/</loc>
     </url>
     <url>
-        <loc>https://isunjn.com/tags/test/</loc>
+        <loc>https://isunjn.me/tags/test/</loc>
     </url>
 </urlset>
