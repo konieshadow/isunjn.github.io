@@ -1,16 +1,83 @@
-# The URL the site will be built for
-base_url = "https://isunjn.me"
-
-# Whether to automatically compile all Sass files in the sass directory
+base_url = "https://isunjn.com"
+title = "isunjn"
+description = "Personal website of isunjn"
+default_language = "en"
+theme = "serene"
+output_dir = "docs"
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
+minify_html = true
 build_search_index = false
+generate_feed = false
+feed_filename = "rss.xml"
+taxonomies = [
+    {name = "tags"},
+    {name = "categories"}
+]
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+extra_syntaxes = []
+highlight_theme = "nord"
+render_emoji = true
+
+[search]
+include_title = true
+include_description = false
+include_path = false
+include_content = true
 
 [extra]
-# Put all your custom variables here
+name = "isunjn"
+id = "isunjn"
+bio = "In programming we trust"
+avatar = "img/avatar.png"
+
+show_id = false
+show_projects = false #TODO
+show_pgp = false # TODO
+blog_icon = "ri-quill-pen-line"
+projects_icon = "ri-compasses-2-line"
+
+links = [
+    {name = "GitHub", icon = "ri-github-line", url = "https://github.com/isunjn"},
+    {name = "Twitter", icon = "ri-twitter-line", url = "https://twitter.com/isunjn"},
+    {name = "Email", icon = "ri-mail-line", url = "mailto:isunjn@gmail.com"}
+]
+
+toc = true
+blur_effect = true
+back_to_top_button = true
+progress_bar = true
+author_info_under_post = false # TODO
+cc_license = true
+cc_license_info = "本文采用 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可，转载请联系作者并注明原文链接"
+
+outdate_warn = true
+outdate_warn_days = 120
+outdate_warn_text1 = "注意，本文最后更新于 "
+outdate_warn_text2 = " 天前，部分内容可能已失去时效性，请谨慎参考"
+
+footer_copyright_name = "isunjn"
+footer_copyright_year = "2021"
+footer_credits = true
+
+comment = "none"
+analytics = "umami"
+
+
+# comment config # TODO
+
+[extra.gitalk]
+clientID = "xxxxxxxx"
+clientSecret = "xxxxxxxx"
+repo = "xxxxxxxx"
+owner = "xxxx"
+admin = ["xxxx"]
+distractionFreeMode = false
+
+
+# analytics config # TODO
+
+[extra.umami]
+data_website_id = "de3a268e-a2d2-4af6-8bfa-46cd6ca13e0d"
+src = "https://umami-isunjn.vercel.app/umami.js"
