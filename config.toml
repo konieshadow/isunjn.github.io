@@ -61,18 +61,18 @@ footer_copyright_name = "isunjn"
 footer_copyright_year = "2021"
 footer_credits = true
 
-comment = "none"
+comment = "gitalk"
 analytics = "umami"
 
 
 # comment config # TODO
 
 [extra.gitalk]
-clientID = "xxxxxxxx"
-clientSecret = "xxxxxxxx"
-repo = "xxxxxxxx"
-owner = "xxxx"
-admin = ["xxxx"]
+clientID = "6af0871db49c6e53f977"
+clientSecret = "60616bbb966a81c6e997e04c3217318ecad9575e"
+repo = "isunjn.github.io"
+owner = "isunjn"
+admin = ["isunjn"]
 distractionFreeMode = false
 
 
