@@ -74,7 +74,9 @@ repo = "isunjn.github.io"
 owner = "isunjn"
 admin = ["isunjn"]
 distractionFreeMode = false
-
+perPage = 10
+pageDirection = "first"
+proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
 
 # analytics config # TODO
 
