@@ -65,7 +65,7 @@ comment = "gitalk"
 analytics = "umami"
 
 
-# comment config # TODO
+# comment
 
 [extra.gitalk]
 clientID = "6af0871db49c6e53f977"
@@ -78,8 +78,8 @@ perPage = 10
 pageDirection = "first"
 proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
 
-# analytics config # TODO
+# analytics
 
 [extra.umami]
-data_website_id = "de3a268e-a2d2-4af6-8bfa-46cd6ca13e0d"
+website_id = "de3a268e-a2d2-4af6-8bfa-46cd6ca13e0d"
 src = "https://umami-isunjn.vercel.app/umami.js"
