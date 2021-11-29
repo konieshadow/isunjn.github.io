@@ -8,7 +8,7 @@ compile_sass = true
 minify_html = true
 build_search_index = false
 generate_feed = false
-feed_filename = "atom.xml"
+feed_filename = "feed.xml"
 taxonomies = [
     {name = "tags"},
     {name = "categories"}
@@ -53,13 +53,13 @@ blur_effect = true
 back_to_top_button = true
 progress_bar = true
 cc_license = true
-cc_license_info = "本文采用 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可，如需转载，请联系作者"
+cc_license_statement = "本文采用 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可，如需转载，请联系作者"
 
-feed_in_blog_section = false
+feed_in_blog_section = true
 
 outdate_warn = false
 outdate_warn_days = 120
-outdate_warn_text1 = "注意，本文最后更新于 "
+outdate_warn_text1 = "注意：本文最后更新于 "
 outdate_warn_text2 = " 天前，部分内容可能已失去时效性，请谨慎参考"
 
 footer_copyright_name = "isunjn"
