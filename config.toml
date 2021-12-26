@@ -69,7 +69,7 @@ footer_copyright_year = "2021"
 # footer_custom = "xxxxxxxx"
 footer_credits = true
 
-comment = "disqus"
+comment = "gitalk"
 analytics = "umami"
 
 #======================= Comment =======================
