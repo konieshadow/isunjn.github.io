@@ -25,7 +25,7 @@ external_links_no_referrer = true
 smart_punctuation = false
 
 [slugify]
-paths = "off"
+paths = "on"
 taxonomies = "on"
 anchors = "on"
 
