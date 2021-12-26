@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="/css/header.css" />
 <link rel="stylesheet" href="/css/footer.css" />
 <link rel="stylesheet" href="/css/post.css" />
+<link rel="stylesheet" href="/css/gitalk.css">
+
     <script async defer data-website-id="de3a268e-a2d2-4af6-8bfa-46cd6ca13e0d" src="https:&#x2F;&#x2F;umami-isunjn.vercel.app&#x2F;umami.js"></script>
 </head>
 
@@ -70,7 +72,7 @@
                 <div class="content"><p>本站文章采用 <a rel="nofollow noreferrer" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 进行许可，禁止商业用途，如需转载请联系作者</p></div>
             </blockquote>
         </article>
-        <div id="disqus_thread" class="comment"></div>
+        <div id="gitalk-container" class="comment"></div>
     </main>
     <aside  class="blur" > 
         <a id="back-to-top" aria-label="back to top" href="#top"><i class="ri-arrow-up-s-line ri-2x"></i></a>
@@ -88,19 +90,22 @@
 <script src="/js/progress.js"></script>
 <script src="/js/lightense.min.js"></script>
 <script src="/js/img.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
-    var disqus_config = function () {
-    this.page.url = "https://isunjn.me/blog/say-hello-again/";
-    this.page.identifier = "https://isunjn.me/blog/say-hello-again/";
-    };
-    (function() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://isunjn-1.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+    var gitalk = new Gitalk({
+        clientID: '6af0871db49c6e53f977',
+        clientSecret: '60616bbb966a81c6e997e04c3217318ecad9575e',
+        repo: 'isunjn.github.io',
+        owner: 'isunjn',
+        admin: ['isunjn',],
+        id: location.pathname,
+        distractionFreeMode: false,
+        perPage: 10,
+        pageDirection: "first",
+        proxy: "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
+      });
+    gitalk.render('gitalk-container');      
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 
 </html>
