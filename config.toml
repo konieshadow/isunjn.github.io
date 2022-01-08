@@ -47,6 +47,7 @@ toc_icon = "ri-menu-2-line"
 links = [
     {name = "GitHub", icon = "ri-github-line", url = "https://github.com/isunjn"},
     {name = "Twitter", icon = "ri-twitter-line", url = "https://twitter.com/isunjn"},
+    {name = "Telegram", icon = "ri-send-plane-line", url = "https://t.me/isunjn"},
     {name = "Email", icon = "ri-mail-line", url = "mailto:isunjn@gmail.com"},
     {name = "GPG", icon = "ri-fingerprint-line", url = "https://github.com/isunjn.gpg"},
 ]
@@ -58,14 +59,14 @@ blur_effect = true
 back_to_top_button = true
 progress_bar = true
 cc_license = true
-cc_license_statement = "本站文章采用 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可，禁止商业用途，如需转载请联系作者"
+cc_license_statement = "文章采用 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 进行许可，未经允许禁止转载"
 outdate_warn = false
 outdate_warn_days = 120
 outdate_warn_text1 = "注意：本文最后更新于 "
 outdate_warn_text2 = " 天前，部分内容可能已失去时效性，请谨慎参考"
 
 footer_copyright_name = "isunjn"
-footer_copyright_year = "2021"
+footer_copyright_year = "2022"
 # footer_custom = "xxxxxxxx"
 footer_credits = true
 
