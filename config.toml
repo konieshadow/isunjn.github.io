@@ -47,8 +47,6 @@ toc_icon = "ri-menu-2-line"
 links = [
     {name = "GitHub", icon = "ri-github-line", url = "https://github.com/isunjn"},
     {name = "Twitter", icon = "ri-twitter-line", url = "https://twitter.com/isunjn"},
-    {name = "Telegram", icon = "ri-send-plane-line", url = "https://t.me/isunjn"},
-    {name = "Email", icon = "ri-mail-line", url = "mailto:isunjn@gmail.com"},
     {name = "GPG", icon = "ri-fingerprint-line", url = "https://github.com/isunjn.gpg"},
 ]
 

@@ -13,6 +13,7 @@ div.info {
     img {
         width: 80px;
         height: 80px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 16px 0px;
         border-radius: 50%;
         margin-right: 30px;
     }
@@ -23,15 +24,12 @@ div.info {
             margin-right: 10px;
         }
         #id {
-            border: 2px var(--primary-color) solid;
             color: var(--primary-color);
-            padding: 0px 16px 1px 16px;
-            border-radius: 20px;
-            font-size: 0.75em;
+            font-size: 1.1em;
         }
         #bio {
             color: var(--text-second-color);
-            font-size: 0.8em;
+            font-size: 0.9em;
         }
     }
 }
@@ -142,10 +140,6 @@ div.brief {
         .info-text {
             #name {
                 margin-right: 2px;
-            }
-            #id {
-                font-size: 0.7em;
-                padding: 0 8px;
             }
         }
     }
