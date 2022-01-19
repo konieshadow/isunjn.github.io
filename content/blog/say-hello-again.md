@@ -23,6 +23,3 @@ toc = false
 这张图里是我人生第一个 Hello, World, 是在高考结束后的那个暑假写的。
 
 Hope this traditional incantation can also help me with writing blog.
-
-<br/>
-<br/>
