@@ -15,6 +15,10 @@
         <lastmod>2022-04-19</lastmod>
     </url>
     <url>
+        <loc>https://isunjn.me/blog/snl-compiler-in-ts/</loc>
+        <lastmod>2022-04-30</lastmod>
+    </url>
+    <url>
         <loc>https://isunjn.me/categories/</loc>
     </url>
     <url>
@@ -27,6 +31,12 @@
         <loc>https://isunjn.me/tags/</loc>
     </url>
     <url>
+        <loc>https://isunjn.me/tags/compiler/</loc>
+    </url>
+    <url>
         <loc>https://isunjn.me/tags/theme/</loc>
+    </url>
+    <url>
+        <loc>https://isunjn.me/tags/typescript/</loc>
     </url>
 </urlset>
