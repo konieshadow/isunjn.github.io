@@ -7,6 +7,10 @@
         <loc>https://isunjn.me/blog/</loc>
     </url>
     <url>
+        <loc>https://isunjn.me/blog/read-effective-ts/</loc>
+        <lastmod>2022-09-20</lastmod>
+    </url>
+    <url>
         <loc>https://isunjn.me/blog/say-hello-again/</loc>
         <lastmod>2021-10-21</lastmod>
     </url>
@@ -32,6 +36,9 @@
     </url>
     <url>
         <loc>https://isunjn.me/tags/compiler/</loc>
+    </url>
+    <url>
+        <loc>https://isunjn.me/tags/reading/</loc>
     </url>
     <url>
         <loc>https://isunjn.me/tags/theme/</loc>
